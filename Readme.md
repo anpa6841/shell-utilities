@@ -51,3 +51,11 @@ P.S: The order of the flags for the cat utility matters since that's how getopts
 - tail -n 20 <filen_1> <file_2> # read last 20 lines from each file
 - tail -c 10 < <file_name> # read last 10 bytes from stdin
 - tail -n 5 -f <file_name> # read last 5 lines and follow file
+
+
+#### nice
+
+### Example Usage
+
+- nice <nice_value> <command | script>
+- sudo nice <negative_nice_value> <command | script> # setting negative nice value requires sudo privileges
